@@ -1,0 +1,294 @@
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Desktop Logo and Menu Section Starts -------*/
+
+.bg-logo-menu-desktop { display: none; }
+
+  /*------- Desktop Logo and Menu Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.box-banner-info-home { width: 90%; }
+.box-banner-desc-home > h1 { font-size: 3rem; }
+.box-banner-desc-home > h5 { line-height: 1.4; }
+.banner-listing-home > li { display: block; margin: 0 0 10px 0; }
+.banner-listing-home > li > a { width: 240px; }
+.banner-scroll-down-arrow-home > a { font-size: 1.8rem; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-info-home { padding: 0; }
+.about-info-home > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.about-info-home > p { margin-bottom: 15px; }
+.about-image-home::before { background-color: #f4f4f4; }
+.abot-image-info-home { padding: 20px; position: static; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; transform: none; }
+.about-image-home > img { margin-bottom: 15px; }
+.abot-image-info-home > h2 { color: #719430; font-size: 2.4rem; text-shadow: 1px 1px 1px #000000; }
+.abot-image-info-home > h5,
+.about-us-listing-home > li { color: #719430; text-shadow: none; }
+.abot-image-info-home > h5 { font-size: 1.2rem; }
+.about-us-listing-home > li { font-size: 1rem; }
+.read-more-about-home > a { background-color: transparent; border: 2px solid #719430; color: #719430; }
+.read-more-about-home > a:hover { background-color: #719430; color: #ffffff; }
+
+  /*------- About Us Section Ends -------*/
+
+	/*------- Gallery Section Starts -------*/
+
+.bg-gallery-home { padding: 30px 15px 0; }
+.gallery-heding-home > h2 { font-size: 2.4rem; padding: 30px; }
+.bg-gallery-display-home { padding: 20px 20px 0; }
+.gallery-image-info-home { margin-bottom: 30px; }
+.gallery-info-home > h4 { font-size: 1.4rem; }
+
+  /*------- Gallery Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.bg-services-home { padding: 30px 15px 0; }
+.services-icon-home { height: 50px; width: 50px; }
+.services-icon-home > i { font-size: 1.2rem; line-height: 50px; }
+.services-info-home > h4 { font-size: 1.4rem; }
+
+  /*------- Services Section Ends -------*/
+
+	/*------- Program Section Starts -------*/
+
+.box-program-info-home { padding: 30px 0 0; text-align: center; }
+.box-program-info-home > h2 { font-size: 2.4rem; }
+
+  /*------- Program Section Ends -------*/
+
+	/*------- Profile Section Starts -------*/
+
+/* .box-profile-info-home > h2 { font-size: 2.4rem; } */
+
+  /*------- Profile Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.footer-heading > h4 { font-size: 1.4rem; margin-bottom: 15px; }
+.footer-location-info > h5 { font-size: 1.2rem; }
+.footer-location-info > p,
+.footer-customer-service-info > p:last-child { margin-bottom: 15px; padding-right: 0; }
+
+  /*------- Footer Section Ends -------*/
+
+	/*------- Copyright Section Starts -------*/
+
+.bg-copyright { padding: 15px; }
+.copyright-info { text-align: center; }
+
+  /*------- Copyright Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Desktop Logo and Menu Section Starts -------*/
+
+.bg-logo-menu-desktop { display: none; }
+
+  /*------- Desktop Logo and Menu Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.box-banner-info-home { width: 85%; }
+.box-banner-desc-home > h1 { font-size: 3rem; }
+.box-banner-desc-home > h5 { font-size: 1.2rem; line-height: 1.4; }
+.banner-listing-home > li > a { width: 220px; }
+.banner-scroll-down-arrow-home > a { font-size: 1.8rem; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-info-home { padding: 0; }
+.about-info-home > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.about-info-home > p { margin-bottom: 15px; }
+.about-image-home::before { background-color: #f4f4f4; }
+.abot-image-info-home { padding: 20px; position: static; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; transform: none; }
+.about-image-home > img { margin-bottom: 15px; }
+.abot-image-info-home > h2 { color: #719430; font-size: 2.4rem; text-shadow: 1px 1px 1px #000000; }
+.abot-image-info-home > h5,
+.about-us-listing-home > li { color: #719430; text-shadow: none; }
+.abot-image-info-home > h5 { font-size: 1.2rem; }
+.about-us-listing-home > li { font-size: 1rem; }
+.read-more-about-home > a { background-color: transparent; border: 2px solid #719430; color: #719430; }
+.read-more-about-home > a:hover { background-color: #719430; color: #ffffff; }
+
+  /*------- About Us Section Ends -------*/
+
+	/*------- Gallery Section Starts -------*/
+
+.bg-gallery-home { padding: 30px 15px 0; }
+.gallery-heding-home > h2 { font-size: 2.4rem; padding: 30px; }
+.bg-gallery-display-home { padding: 20px 20px 0; }
+.gallery-image-info-home { margin-bottom: 30px; }
+.gallery-info-home > h4 { font-size: 1.6rem; }
+
+  /*------- Gallery Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.bg-services-home { padding: 30px 15px 0; }
+.services-icon-home { height: 60px; width: 60px; }
+.services-icon-home > i { font-size: 1.4rem; line-height: 60px; }
+.services-info-home > h4 { font-size: 1.4rem; }
+
+  /*------- Services Section Ends -------*/
+
+	/*------- Program Section Starts -------*/
+
+.box-program-info-home { padding: 30px 0 0; text-align: center; }
+.box-program-info-home > h2 { font-size: 2.4rem; }
+
+  /*------- Program Section Ends -------*/
+
+	/*------- Profile Section Starts -------*/
+
+/* .box-profile-info-home > h2 { font-size: 2.4rem; } */
+
+  /*------- Profile Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.footer-heading > h4 { font-size: 1.6rem; margin-bottom: 15px; }
+.footer-location-info > h5 { font-size: 1.2rem; }
+.footer-location-info > p,
+.footer-contact-info { margin-bottom: 30px; }
+
+  /*------- Footer Section Ends -------*/
+
+	/*------- Copyright Section Starts -------*/
+
+.bg-copyright { padding: 15px; }
+.copyright-info { text-align: center; }
+
+  /*------- Copyright Section Ends -------*/
+
+/*------- Home Page Ends -------*/  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Desktop Logo and Menu Section Starts -------*/
+
+.bg-logo-menu-desktop { display: none; }
+
+  /*------- Desktop Logo and Menu Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.box-banner-info-home { width: 85%; }
+.box-banner-desc-home > h1 { font-size: 3rem; }
+.box-banner-desc-home > h5 { font-size: 1.2rem; line-height: 1.4; }
+.banner-listing-home > li > a { width: 240px; }
+.banner-scroll-down-arrow-home > a { font-size: 1.8rem; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-info-home { padding: 0; }
+.about-info-home > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.about-info-home > p { margin-bottom: 15px; }
+.about-image-home::before { background-color: #f4f4f4; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Gallery Section Starts -------*/
+
+.bg-gallery-home { padding: 30px 15px 0; }
+.gallery-heding-home > h2 { font-size: 2.4rem; padding: 30px; }
+.bg-gallery-display-home { padding: 20px 20px 0; }
+.gallery-image-info-home { margin-bottom: 20px; }
+.gallery-info-home > h4 { font-size: 1.2rem; }
+
+  /*------- Gallery Section Ends -------*/
+
+  /*------- Services Section Starts -------*/
+
+.bg-services-home { padding: 30px 15px 0; }
+.services-icon-home { height: 60px; width: 60px; }
+.services-icon-home > i { font-size: 1.4rem; line-height: 60px; }
+.services-info-home > h4 { font-size: 1.4rem; }
+
+  /*------- Services Section Ends -------*/
+
+  /*------- Program Section Starts -------*/
+
+.box-program-info-home { padding: 30px 0 0; text-align: center; }
+.box-program-info-home > h2 { font-size: 2.4rem; }
+
+  /*------- Program Section Ends -------*/
+
+	/*------- Profile Section Starts -------*/
+
+/* .box-profile-info-home > h2 { font-size: 2.4rem; } */
+
+  /*------- Profile Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-heading > h4 { font-size: 1.6rem; margin-bottom: 15px; }
+.footer-location-info > h5 { font-size: 1.2rem; }
+.footer-location-info > p,
+.footer-contact-info { margin-bottom: 30px; }
+
+  /*------- Footer Section Ends -------*/
+
+	/*------- Copyright Section Starts -------*/
+
+.bg-copyright { padding: 15px; }
+.copyright-info { text-align: center; }
+
+  /*------- Copyright Section Ends -------*/
+
+/*------- Home Page Ends -------*/  
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+
+/*------- Home Page Ends -------*/  
+
+}
