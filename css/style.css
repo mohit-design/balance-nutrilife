@@ -46,6 +46,17 @@ p { color: #777777; font: 1rem/1.7 "OpenSans-Regular"; text-align: justify; }
 
 /*------- Common CSS Ends -------*/
 
+/*------- Window Loader Section Starts -------*/
+
+.window-loader-icon { left: 50%; position: absolute; top: 25%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.window-loader-icon > img { display: block; width: 10vw; }
+#overlay { background-color: #000000; bottom: 0; left: 0; position: fixed; right: 0; top: 0; -webkit-transition: 1s 0.4s; -moz-transition: 1s 0.4s; -ms-transition: 1s 0.4s; -o-transition: 1s 0.4s; transition: 1s 0.4s; z-index: 12; }
+#progress { background-color: #fff; height: 1px; position: absolute; top: 50%; width: 0; }
+#progstat { color: #ffffff; font: 2vw/1.2 "Caveat-Bold"; left: 50%; letter-spacing: 4px; position: absolute; text-align: center; text-transform: uppercase; top: 75%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 100%; }
+.st-loader { fill: #FFFFFF; }  
+
+/*------- Window Loader Section Ends -------*/
+
 /*------- Home Page Starts -------*/
 
 	/*------- Desktop Logo and Menu Section Starts -------*/
