@@ -4,11 +4,11 @@ $(document).ready(function() {
 	  if ($(window).scrollTop() >= 50) {
 	    $(".bg-logo-menu-desktop").addClass("active");
       $(".menu-listing-desktop").addClass("active");
-			$(".img-logo-header-desktop").attr("src", "../images/logo.png"); 
+			$(".img-logo-header-desktop").attr("src", "images/logo.png"); 
 	   } else {
 	    $(".bg-logo-menu-desktop").removeClass("active");
       $(".menu-listing-desktop").removeClass("active");
-			$(".img-logo-header-desktop").attr("src", "../images/logo-white.png");
+			$(".img-logo-header-desktop").attr("src", "images/logo-white.png");
 	   }
 	});
 });
