@@ -11,4 +11,13 @@ $(document).ready(function() {
     fade: true,
     cssEase: 'linear'
   });
+  // Testimonials Slick Slider JS
+  $(".testimonials-slick-slider-home").slick({
+    arrows: false,
+    dots: true,
+    infinite: false,
+    speed: 700,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
 });
