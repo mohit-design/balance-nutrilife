@@ -43,7 +43,7 @@ p { color: #777777; font: 1.6rem/1.7 "NunitoSans-Regular"; text-align: justify; 
 
 .window-loader-icon { left: 50%; position: absolute; top: 25%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
 .window-loader-icon > img { display: block; width: 10vw; }
-#overlay { background-color: #000000; bottom: 0; left: 0; position: fixed; right: 0; top: 0; -webkit-transition: 1s 0.4s; -moz-transition: 1s 0.4s; -ms-transition: 1s 0.4s; -o-transition: 1s 0.4s; transition: 1s 0.4s; z-index: 12; }
+#overlay { background-color: #000000; bottom: 0; left: 0; position: fixed; right: 0; top: 0; -webkit-transition: 1s 0.4s; -moz-transition: 1s 0.4s; -ms-transition: 1s 0.4s; -o-transition: 1s 0.4s; transition: 1s 0.4s; z-index: 14; }
 #progress { background-color: #fff; height: 1px; position: absolute; top: 50%; width: 0; }
 #progstat { color: #ffffff; font: 2vw/1.2 "NunitoSans-Bold"; left: 50%; letter-spacing: 4px; position: absolute; text-align: center; text-transform: uppercase; top: 75%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 100%; }
 
@@ -245,6 +245,74 @@ p { color: #777777; font: 1.6rem/1.7 "NunitoSans-Regular"; text-align: justify; 
 .box-profile-info-home > p { color: #ffffff; margin-bottom: 50px; } */
 
 	/*------- Profile Section Ends -------*/
+
+	/*------- Testimonial Slider Section Starts -------*/
+
+.bg-testimonial-slider-home { background: url("../images/bg-testimonial.jpg") no-repeat top/cover; }
+.testimonials-slick-slider-home .slick-slide { padding: 0 30px; }
+.box-testimonial-desc-home > p {
+	border-left: 1px solid #00c400;
+	border-top: 1px solid #00c400;
+	margin-bottom: 50px;
+	padding: 30px;
+	position: relative;
+	text-align: left;
+}
+.box-testimonial-desc-home > p::after {
+	background-color: #00c400;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 1px;
+	left: 0;
+	position: absolute;
+	width: 50%;
+}
+.box-testimonial-profile-info-home { position: relative; }
+.box-testimonial-profile-info-home::before {
+	background-color: #00c400;
+	content: "";
+	display: block;
+	height: 20px;
+	left: 50%;
+	position: absolute;
+	top: -50px;
+	width: 1px;
+}
+.box-testimonial-profile-info-home::after {
+	background-color: #00c400;
+	content: "";
+	display: block;
+	height: 40px;
+	left: 50%;
+	position: absolute;
+	top: -70px;
+	-webkit-transform: skewX(-45deg);
+	-moz-transform: skewX(-45deg);
+	-ms-transform: skewX(-45deg);
+	-o-transform: skewX(-45deg);
+	transform: skewX(-45deg);
+	transform-origin: 100% 100% 0;
+	width: 2px;
+}
+.box-testimonial-profile-info-home > img {
+	height: 70px;
+	margin: 0 auto 15px;
+}
+.box-testimonial-profile-info-home > h4 { color: #00bcd4; font: 2.4rem/1 "NunitoSans-SemiBold"; margin-bottom: 5px; }
+.box-testimonial-profile-info-home > p { text-align: center; }
+
+		/*------- Slick Slider Dots CSS Starts -------*/
+
+.testimonials-slick-slider-home .slick-dots { bottom: -40px; }
+.testimonials-slick-slider-home .slick-dots li { cursor: pointer; display: inline-block; height: auto; margin: 0 5px; padding: 0; position: relative; width: auto; }
+.testimonials-slick-slider-home .slick-dots li button { background-color: #00bcd4; height: 12px; line-height: 12px; margin: 0; opacity: 0.5; -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -ms-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear; width: 12px; }
+.testimonials-slick-slider-home .slick-dots li.slick-active button { opacity: 1; width: 27px; }
+.testimonials-slick-slider-home .slick-dots li button::before { content: ""; }
+
+		/*------- Slick Slider Dots CSS Ends -------*/
+
+	/*------- Testimonial Slider Section Ends -------*/
 
 	/*------- Footer Section Starts -------*/
 
