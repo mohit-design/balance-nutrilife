@@ -248,18 +248,29 @@ p { color: #777777; font: 1.6rem/1.7 "NunitoSans-Regular"; text-align: justify; 
 
 	/*------- Testimonial Slider Section Starts -------*/
 
-.bg-testimonial-slider-home { background: url("../images/bg-testimonial.jpg") no-repeat top/cover; }
+.bg-testimonial-slider-home { background: url("../images/bg-testimonial.jpg") no-repeat top/cover; position: relative; z-index: 1; }
+.bg-testimonial-slider-home::before {
+	background-color: #000000b7;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
 .testimonials-slick-slider-home .slick-slide { padding: 0 30px; }
 .box-testimonial-desc-home > p {
-	border-left: 1px solid #00c400;
-	border-top: 1px solid #00c400;
+	border-left: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+	color: #ffffff;
 	margin-bottom: 50px;
 	padding: 30px;
 	position: relative;
 	text-align: left;
 }
 .box-testimonial-desc-home > p::after {
-	background-color: #00c400;
+	background-color: #ffffff;
 	bottom: 0;
 	content: "";
 	display: block;
@@ -270,7 +281,7 @@ p { color: #777777; font: 1.6rem/1.7 "NunitoSans-Regular"; text-align: justify; 
 }
 .box-testimonial-profile-info-home { position: relative; }
 .box-testimonial-profile-info-home::before {
-	background-color: #00c400;
+	background-color: #ffffff;
 	content: "";
 	display: block;
 	height: 20px;
@@ -280,7 +291,7 @@ p { color: #777777; font: 1.6rem/1.7 "NunitoSans-Regular"; text-align: justify; 
 	width: 1px;
 }
 .box-testimonial-profile-info-home::after {
-	background-color: #00c400;
+	background-color: #ffffff;
 	content: "";
 	display: block;
 	height: 40px;
@@ -299,14 +310,14 @@ p { color: #777777; font: 1.6rem/1.7 "NunitoSans-Regular"; text-align: justify; 
 	height: 70px;
 	margin: 0 auto 15px;
 }
-.box-testimonial-profile-info-home > h4 { color: #00bcd4; font: 2.4rem/1 "NunitoSans-SemiBold"; margin-bottom: 5px; }
-.box-testimonial-profile-info-home > p { text-align: center; }
+.box-testimonial-profile-info-home > h4 { color: #ffffff; font: 2.4rem/1 "NunitoSans-SemiBold"; margin-bottom: 5px; }
+.box-testimonial-profile-info-home > p { color: #f7f7f7; text-align: center; }
 
 		/*------- Slick Slider Dots CSS Starts -------*/
 
 .testimonials-slick-slider-home .slick-dots { bottom: -40px; }
 .testimonials-slick-slider-home .slick-dots li { cursor: pointer; display: inline-block; height: auto; margin: 0 5px; padding: 0; position: relative; width: auto; }
-.testimonials-slick-slider-home .slick-dots li button { background-color: #00bcd4; height: 12px; line-height: 12px; margin: 0; opacity: 0.5; -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -ms-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear; width: 12px; }
+.testimonials-slick-slider-home .slick-dots li button { background-color: #658529; height: 12px; line-height: 12px; margin: 0; opacity: 0.5; -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -ms-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear; width: 12px; }
 .testimonials-slick-slider-home .slick-dots li.slick-active button { opacity: 1; width: 27px; }
 .testimonials-slick-slider-home .slick-dots li button::before { content: ""; }
 
